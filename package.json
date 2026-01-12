@@ -1,12 +1,13 @@
 {
   "name": "weather-cli",
   "version": "1.0.0",
+  "description": "Simple CLI to fetch current weather for a city (uses wttr.in)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node ./test/test.js"
   },
-  "keywords": [],
+  "keywords": ["weather","cli","node"],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "MIT"
 }
